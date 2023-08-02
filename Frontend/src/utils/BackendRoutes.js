@@ -1,4 +1,5 @@
-export const host = "http://localhost:8000";
+// export const host = "http://localhost:8000";
+export const host = "https://reactchatapp-8nq7.onrender.com";
 export const registerRoute = `${host}/auth/register`;
 export const loginRoute = `${host}/auth/login`;
 export const avatarRoute = `${host}/auth/avatar`;
@@ -7,4 +8,3 @@ export const sendMessageRoute = `${host}/messages/addMessage`;
 export const getAllMessagesRoute = `${host}/messages/getMessage`;
 export const firebaseLoginRoute = `${host}/auth/firebaseLogin`;
 export const checkUser = `${host}/auth/checkUsername`;
-    

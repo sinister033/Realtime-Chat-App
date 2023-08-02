@@ -12,7 +12,8 @@ const app = express();
 const MONGODB_URL = `mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@cluster0.smq9jap.mongodb.net/chat`;
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    // origin: "http://localhost:5173",
+    origin: "https://courageous-entremet-31b70a.netlify.app",
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
   })
