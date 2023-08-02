@@ -1,0 +1,93 @@
+.setUserFormContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: #131324; */
+    background-color: #22242f;
+}
+
+.setUserFormContainer .row label {
+    display: block;
+    margin: 5px 0 0 0px;
+    transition: 0.4s ease-in-out;
+}
+
+.setUserFormContainer label.success {
+    color: #39ff14;
+}
+
+.setUserFormContainer label.danger {
+    color: #ff3131;
+}
+
+.setUserFormContainer input.success {
+    border-color: #39ff14;
+}
+
+.setUserFormContainer input.success:focus {
+    border-color: #39ff14;
+}
+
+.setUserFormContainer input.danger {
+    border-color: #ff3131;
+}
+
+
+.setUserFormContainer input.danger:focus {
+    border-color: #ff3131;
+}
+
+.setUserFormContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color:  rgba(0, 0, 0, 0.392);
+    border-radius: 2rem;
+    padding: 4rem 4rem;
+
+}
+
+.setUserFormContainer form input {
+    background-color: transparent;
+    padding: 0.8rem;
+    border: 0.1rem solid #115ea1;
+    border-radius: 0.4rem;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.setUserFormContainer form input:focus {
+    border: 0.1rem solid #4e0eff;
+    outline: none
+}
+
+.setUserFormContainer form .btn {
+    background-color: #1c91f5;
+    color: white;
+    margin-top: 1.5rem;
+    padding: 0.8rem 5.2rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+
+}
+
+.setUserFormContainer form button:hover {
+    background-color: #4e0eff;
+}
+
+.setUserFormContainer form span {
+    color: white;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+
+}

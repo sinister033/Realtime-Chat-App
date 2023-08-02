@@ -1,0 +1,103 @@
+.chatInputContainer {
+    display: grid;
+    grid-template-columns: 6% 94%;
+    align-items: center;
+    background-color: #191C24;
+    padding: 0 2rem;
+    /* padding-bottom: 0.3rem; */
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+}
+
+.btnContainer .emoji {
+    position: relative;
+}
+
+.btnContainer .emoji svg {
+    font-size: 1.5rem;
+    color: #ffff20c7;
+    cursor: pointer;
+}
+
+.emoji .EmojiPickerReact.epr-dark-theme {
+    position: absolute;
+    top: -420px;
+}
+
+.emoji .EmojiPickerReact.epr-dark-theme .epr-body::-webkit-scrollbar {
+    width: 0;
+}
+.formInputContainer {
+    width: 100%;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: #424656;
+
+}
+
+.formInputContainer input {
+    width: 91%;
+    height: 60%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding-left: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.formInputContainer input::selection {
+    background-color: #1c91f5;
+}
+
+.formInputContainer input:focus {
+    outline: none;
+}
+
+.formInputContainer button {
+    padding: 0.3rem 2rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #115ea1;
+    border: none;
+}
+
+.formInputContainer button svg {
+    transition: 0.2s ease-in-out;
+}
+
+.formInputContainer button:hover svg {
+    transform: translateX(0.6rem)
+}
+
+.formInputContainer svg {
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+@media screen and (min-width:720px) and (max-width:1080px) {
+    .formInputContainer button {
+        padding: 0.5rem 1rem;
+    }
+
+    .formInputContainer svg {
+        font-size: 1rem;
+    }
+
+    .chatInputContainer {
+        padding: 0 1.1rem;
+        gap: 1rem;
+    }
+
+}

@@ -1,0 +1,19 @@
+.logoutBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 67, 67);
+    border: none;
+    cursor: pointer;
+}
+
+.logoutBtn svg{
+    color: #ebe7ff;
+    transform: scale(1.25);
+    transition: 0.3s ease-in-out;
+}
+.logoutBtn:hover svg{
+    transform: scale(1.5)
+}

@@ -1,0 +1,24 @@
+.chatContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    background-image: linear-gradient(#000000, #26262b);
+}
+
+.chatContainer .container {
+    height: 86vh;
+    width: 86vw;
+    background-color: #131517;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+@media screen and (min-width:720px) and (max-width:1080px) {
+    .chatContainer .container {
+        grid-template-columns: 35% 65%;
+    }
+}
