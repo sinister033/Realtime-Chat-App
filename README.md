@@ -56,7 +56,7 @@ A real-time chat application built using React.js, Node.js with Express, MongoDB
 
 open your browser and navigate to http://localhost:5173 to access the application.
 
-Technologies Used
+ ## Technologies Used
 React.js: Frontend user interface.
 Node.js: Backend runtime environment.
 Express: Backend web application framework.
