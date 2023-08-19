@@ -33,11 +33,11 @@ A real-time chat application built using React.js, Node.js with Express, MongoDB
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/real-time-chat-app.git
+   git clone https://github.com/sinister033/Realtime-Chat-App.git
    
 2. Navigate to the project directory:
     ```bash
-     cd real-time-chat-app
+     cd Realtime-Chat-App
 
 3. Install frontend and backend dependencies:
     ```bash
