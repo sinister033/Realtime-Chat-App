@@ -52,7 +52,7 @@ A real-time chat application built using React.js, Node.js with Express, MongoDB
     npm start
     
     # From the client directory
-    npm start
+    npm run dev
 
 open your browser and navigate to http://localhost:5173 to access the application.
 
